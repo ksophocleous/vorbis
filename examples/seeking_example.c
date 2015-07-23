@@ -29,7 +29,7 @@ void _verify(OggVorbis_File *ov,
              ogg_int64_t val,ogg_int64_t pcmval,double timeval,
              ogg_int64_t pcmlength,
              char *bigassbuffer){
-  off_t i;
+  size_t i;
   int j;
   long bread;
   char buffer[4096];
